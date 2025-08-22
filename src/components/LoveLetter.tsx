@@ -33,7 +33,7 @@ const LoveLetter = () => {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            A Letter From My Heart
+            Dil Se Birthday Letter
           </motion.h2>
           <motion.p 
             className="text-xl text-muted-foreground"
@@ -41,7 +41,7 @@ const LoveLetter = () => {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ delay: 0.7, duration: 0.8 }}
           >
-            Words can never fully express how I feel, but here's my attempt...
+            Bas kuch simple shabdon mein, aap se apni feeling share kar raha hoon...
           </motion.p>
         </motion.div>
 
@@ -54,25 +54,21 @@ const LoveLetter = () => {
           <div className="prose prose-lg max-w-none">
             <div className="text-center mb-8">
               <p className="text-sm text-primary font-medium uppercase tracking-wider">
-                On Your Special Day
+                Aapke Birthday Par
               </p>
             </div>
 
             <div className="space-y-6 text-foreground leading-relaxed">
               <p className="text-xl font-light">
-                My Dearest Beautiful,
+                Meri pyaari jaan,
               </p>
 
               <p>
-                Today marks another year of your incredible existence, and I can't help but feel 
-                overwhelmed with gratitude for having you in my life. You bring so much joy, 
-                laughter, and love into every single day.
+                Happy Birthday meri sabse special ladki! Aap meri zindagi ki sabse badi khushi hain. Aapki smile dekh ke din ban jaata hai, aur aap saath ho toh sab kuch perfect lagta hai.
               </p>
 
               <p>
-                Your smile lights up my world, your laugh is my favorite sound, and your 
-                presence makes everything better. You have this amazing ability to turn 
-                ordinary moments into extraordinary memories.
+                Aapki hasi, aapki baatein, aapka pyaar – sab kuch mere liye priceless hai. Aap na ho toh sab kuch adhoora lagta hai. Aapke saath har moment ek nayi yaad ban jaata hai.
               </p>
 
               <div className="flex items-center justify-center my-8">
@@ -82,29 +78,25 @@ const LoveLetter = () => {
               </div>
 
               <p>
-                I love how you see the beauty in everything, how you care for others, 
-                and how you make me want to be the best version of myself. Your kindness, 
-                intelligence, and incredible spirit inspire me every day.
+                Aap sabse alag hain, sabse pyaari hain. Aapki care, aapka support, sab kuch mere liye bahut important hai. Main hamesha chahta hoon ki aap hasti rahen, khush rahen.
               </p>
 
               <p>
-                As you celebrate another year of life, I want you to know that you are 
-                cherished, adored, and loved beyond measure. I'm so excited to see what 
-                this new year brings for you and for us together.
+                Aaj aapke birthday par sirf yahi wish karta hoon ki aapki life hamesha khushiyon se bhari rahe. Main hamesha aapke saath hoon, har ek pal mein, har ek muskurahat mein.
               </p>
 
               <div className="text-center mt-12 mb-8">
                 <Gift className="w-12 h-12 text-primary mx-auto mb-4 float-gentle" />
                 <p className="text-2xl font-romantic font-semibold romantic-text">
-                  Happy Birthday, Beautiful!
+                  Happy Birthday meri jaan! 🎂❤️
                 </p>
                 <p className="text-lg text-muted-foreground mt-4">
-                  Here's to another year of adventures, laughter, and love.
+                  Aapki smile sabse pyaari gift hai mere liye. Love you so much!
                 </p>
               </div>
 
               <p className="text-right text-xl font-light">
-                With all my love,<br />
+                Hamesha aapka,<br />
                 <span className="font-romantic text-2xl text-primary">Gursewak Singh</span>
               </p>
             </div>
