@@ -43,7 +43,6 @@ const MemoryGallery = () => {
   return (
     <motion.section 
       ref={ref}
-      id="memories" 
       className="py-20 px-6 bg-gradient-soft"
     >
       <div className="max-w-6xl mx-auto">

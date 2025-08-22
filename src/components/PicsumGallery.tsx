@@ -16,7 +16,9 @@ const images = [
 
 const PicsumGallery = () => {
   return (
-    <section className="py-12 px-6 bg-background">
+    <section
+      id="memories"
+      className="py-12 px-6 bg-background">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
         {images.map((img, idx) => (
           <img
